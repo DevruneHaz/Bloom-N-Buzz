@@ -1,0 +1,25 @@
+[gd_scene format=3 uid="uid://tnciyig51wcp"]
+
+[ext_resource type="PackedScene" uid="uid://mybnndva3lec" path="res://Scenes/player_start.tscn" id="1_jjgbg"]
+[ext_resource type="PackedScene" uid="uid://dluu8rxj6y5mf" path="res://Scenes/gui.tscn" id="2_bo1nx"]
+[ext_resource type="PackedScene" uid="uid://knygrvvsf5we" path="res://Scenes/shop.tscn" id="3_jjvhh"]
+[ext_resource type="PackedScene" uid="uid://bc3org3bpn7lw" path="res://Scenes/hive.tscn" id="4_kry3j"]
+
+[node name="Main" type="Node2D" unique_id=938178266]
+scale = Vector2(2, 2)
+
+[node name="GUI" parent="." unique_id=1723445405 instance=ExtResource("2_bo1nx")]
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+grow_horizontal = 1
+grow_vertical = 1
+
+[node name="PlayerStart" parent="." unique_id=1891302914 instance=ExtResource("1_jjgbg")]
+position = Vector2(222.5, 251)
+
+[node name="Node2D" parent="." unique_id=447517386 instance=ExtResource("3_jjvhh")]
+position = Vector2(620.5, 78)
+
+[node name="Node2D2" parent="." unique_id=859090177 instance=ExtResource("4_kry3j")]
+position = Vector2(400.5, 422)

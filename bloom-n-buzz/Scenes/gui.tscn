@@ -1,0 +1,26 @@
+[gd_scene format=3 uid="uid://dluu8rxj6y5mf"]
+
+[ext_resource type="Script" uid="uid://bj47y1yvg5lql" path="res://Scripts/gui.gd" id="1_qyd3e"]
+
+[node name="GUI" type="Control" unique_id=1723445405]
+top_level = true
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_qyd3e")
+
+[node name="Money" type="Label" parent="." unique_id=1106183414]
+layout_mode = 0
+offset_right = 284.0
+offset_bottom = 23.0
+text = "Money?"
+
+[node name="Honey" type="Label" parent="." unique_id=863604748]
+layout_mode = 0
+offset_top = 29.0
+offset_right = 284.0
+offset_bottom = 52.0
+text = "Honey?"
