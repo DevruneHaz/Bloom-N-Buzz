@@ -1,8 +1,8 @@
 [gd_scene format=3 uid="uid://dluu8rxj6y5mf"]
 
-[ext_resource type="Script" uid="uid://bj47y1yvg5lql" path="res://Scripts/gui.gd" id="1_qyd3e"]
+[ext_resource type="Script" uid="uid://bj47y1yvg5lql" path="res://Scripts/game_gui.gd" id="1_qyd3e"]
 
-[node name="GUI" type="Control" unique_id=1723445405]
+[node name="GameGUI" type="Control" unique_id=1723445405]
 top_level = true
 layout_mode = 3
 anchors_preset = 15

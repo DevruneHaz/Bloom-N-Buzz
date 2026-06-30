@@ -4,7 +4,7 @@ extends CharacterBody2D
 const SPEED = 300.0
 
 func _ready() -> void:
-	pass
+	GameManager.player = self
 
 
 func _physics_process(_delta: float) -> void:
